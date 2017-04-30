@@ -26,13 +26,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>            
           </button>
-          <a class="navbar-brand" href="#">Tech Lovers</a>
+          <%= link_to "Tech Lovers", root_path, class: "navbar-brand" %>
         </div>
         <div id="right-nav" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#contact">FAQs</a></li>
+            <li><%= link_to "About", static_pages_about_path %></li>
+            <li><%= link_to "Contact", static_pages_contact_path %></li>
+            <li><%= link_to "FAQs", static_pages_faqs_path %></li>
           </ul>
         </div> 
     </nav>     
