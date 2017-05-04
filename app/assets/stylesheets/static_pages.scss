@@ -100,12 +100,14 @@ body {
 .footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 105%;
   height: 40px;
   background-color: #34495e;
+  margin-left: -35px;
 }
 
 .footer p {
   margin-top: 10px;
   color: white;
+  margin-left: 10px;
 }
