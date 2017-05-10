@@ -88,10 +88,41 @@ body {
   background-color: #34495e;
 }
 
-/** landing page image **/
 
-#hero-image {
-  padding: 20px;
+/** landing page **/
+
+#landing-page-title {
+  padding-bottom: 40px;
+}
+
+#product-carousel .carousel-control.left, .carousel-control.right {
+  background: none
+}
+
+#product-carousel .glyphicon.glyphicon-chevron-right, .glyphicon.glyphicon-chevron-left {
+  color: #080808;
+}
+
+#product-carousel .carousel-indicators {
+  bottom: -70px;
+}
+
+#product-carousel .carousel-inner {
+  margin-bottom: 70px;
+}
+
+#product-carousel ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+  background: transparent;
+  border-color: #808080;
+}
+
+#product-carousel ol.carousel-indicators li.active {
+  background: #808080;
+}
+
+#product-carousel ol.carousel-indicators li:hover {
+  background: #080808;
 }
 
 
